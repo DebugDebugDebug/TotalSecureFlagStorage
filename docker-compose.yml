@@ -1,0 +1,8 @@
+version: '3'
+ 
+services:
+    webserver:
+      build: .
+      ports:
+        - 4009:80
+      restart: always
